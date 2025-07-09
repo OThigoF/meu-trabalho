@@ -1,0 +1,242 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding-bottom: 120px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #ec0a0a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item:hover {
+    background: #f1f1f1;
+}
+
+
+/* voltar aqui */
+
+.voltar {
+    height: 50px;
+    width: 100%;
+    max-width: 180px;
+    font-size: 18px;
+    color: black !important;
+    background-color: white;
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 3.2s linear, transform 1.9s linear;
+    margin-left: -120px;
+}
+
+.voltar:hover {
+    background: #e0e0e0 !important;
+    /* tom mais claro para contraste */
+    color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* leve sombra para destacar */
+}
+
+.Finalizar {
+    margin-left: 80px !important;
+    background: #ff6347;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.Finalizar {
+    margin-left: 80px;
+    background: #ec0a0a;
+    color: #fff;
+}
+
+.Finalizar:hover {
+    background: #c00;
+    transform: translateY(-2px);
+}
+
+.footer-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-buttons button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.footer-buttons button:hover {
+    background: #e5533f;
+    transform: translateY(-2px);
+}
+
+.btn-remover-item {
+    background: rgba(255, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-remover-item:hover {
+    background: rgba(248, 79, 79, 0.85);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.btn-remover-item::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%);
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.btn-remover-item:hover::before {
+    top: -30%;
+    left: -30%;
+}
+
+#cancelar {
+    height: 50px;
+    padding: 0 20px;
+    background-color: #f44336;
+    /* vermelho suave */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#cancelar:hover {
+    background-color: #d32f2f;
+    /* tom mais escuro no hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.payment-option button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.payment-option button:hover {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+.modal-content button.cancel {
+    background: #6c757d;
+}
+
+.modal-content button.cancel:hover {
+    background: #5a6268;
+}
+
+@media (max-width: 600px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .voltar,
+    .Finalizar {
+        margin-left: 0;
+    }
+    .footer-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

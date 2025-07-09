@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Carrinho - Cardápio</title>
+    <link rel="stylesheet" href="FrontAddons/CSS/pagamento/carrinho.css">
+</head>
+
+<body>
+    <header>
+        <h1>Seu Carrinho</h1>
+    </header>
+
+    <div class="cart" id="principal"></div>
+    <!-- Adicione mais itens aqui -->
+    </div>
+
+    <footer class="footer-buttons">
+        <button class="voltar" id="voltar">Voltar ao Cardápio</button>
+        <button class="Finalizar" id="Finalizar">Finalizar Pedido</button>
+    </footer>
+
+    <div class="modal" id="paymentModal">
+        <div class="modal-content">
+            <h2>Escolha o Método de Pagamento</h2>
+            <div class="payment-option">
+                <button id="dinheiro">Dinheiro</button>
+                <button id="pix">Pix</button>
+            </div>
+            <button class="cancel" id="cancelar">Cancelar</button>
+        </div>
+    </div>
+    <script type="module" src="FrontAddons/JS/carrinho/pagamento.js"></script>
+</body>
+
+</html>

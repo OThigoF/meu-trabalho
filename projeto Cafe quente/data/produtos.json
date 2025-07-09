@@ -1,0 +1,66 @@
+[
+  {
+    "idprod": 1,
+    "nomeProd": "xLazaro",
+    "idCategoria": "lanche",
+    "preco": 65,
+    "imgProd": "https://s2-oglobo.glbimg.com/7Ea-LBy4TqZ1W6xASfbifUnp8b8=/0x0:301x301/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/5/0/hdhwI2St270nDxTqBtnQ/96450421-um-caseiro-de-21-anos-matou-sua-mulher-que-estava-gravida-de-4-meses-a-enteada-de-2-anos-e.jpg",
+    "disponivel": true
+  },
+  {
+    "idprod": 2,
+    "nomeProd": "BatataLazaro",
+    "idCategoria": "acompanhamento",
+    "preco": 88,
+    "imgProd": "https://s2-oglobo.glbimg.com/7Ea-LBy4TqZ1W6xASfbifUnp8b8=/0x0:301x301/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/5/0/hdhwI2St270nDxTqBtnQ/96450421-um-caseiro-de-21-anos-matou-sua-mulher-que-estava-gravida-de-4-meses-a-enteada-de-2-anos-e.jpg",
+    "disponivel": true
+  },
+  {
+    "idprod": 3,
+    "nomeProd": "BatataLazaro",
+    "idCategoria": "acompanhamento",
+    "preco": 12,
+    "imgProd": "https://s2-oglobo.glbimg.com/7Ea-LBy4TqZ1W6xASfbifUnp8b8=/0x0:301x301/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/5/0/hdhwI2St270nDxTqBtnQ/96450421-um-caseiro-de-21-anos-matou-sua-mulher-que-estava-gravida-de-4-meses-a-enteada-de-2-anos-e.jpg",
+    "disponivel": true
+  },
+  {
+    "idprod": 4,
+    "nomeProd": "xLazaro",
+    "idCategoria": "bebida",
+    "preco": null,
+    "imgProd": "https://s2-oglobo.glbimg.com/7Ea-LBy4TqZ1W6xASfbifUnp8b8=/0x0:301x301/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/5/0/hdhwI2St270nDxTqBtnQ/96450421-um-caseiro-de-21-anos-matou-sua-mulher-que-estava-gravida-de-4-meses-a-enteada-de-2-anos-e.jpg",
+    "disponivel": true
+  },
+  {
+    "idprod": 5,
+    "nomeProd": "dms cmds mnc",
+    "idCategoria": "acompanhamento",
+    "preco": null,
+    "imgProd": "https://i.ytimg.com/vi/PrGrCMCCV9E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDCELm25xSRtUTULcduXIFNwEWY2A",
+    "disponivel": true
+  },
+  {
+    "idprod": 6,
+    "nomeProd": "pintao",
+    "idCategoria": "sobremesa",
+    "preco": 545646,
+    "imgProd": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6LCQzgjdeVk3zXaK6qYXaC8mY-oRUuPapZQ&s",
+    "disponivel": true
+  },
+  {
+    "idprod": 7,
+    "nomeProd": ",nsacd",
+    "idCategoria": "bebida",
+    "preco": 266,
+    "imgProd": "https://i.ytimg.com/vi/PrGrCMCCV9E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDCELm25xSRtUTULcduXIFNwEWY2A",
+    "disponivel": null
+  },
+  {
+    "idprod": 8,
+    "nomeProd": "xHaxixe",
+    "idCategoria": "acompanhamento",
+    "preco": 55,
+    "imgProd": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hemp_extract.jpg",
+    "disponivel": null
+  }
+]
